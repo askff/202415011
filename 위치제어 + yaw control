@@ -36,7 +36,7 @@ long prev_encoder_B = 0;                // 이전 오른쪽 엔코더 값
 
 int current_encoder_A = 0;
 int current_encoder_B = 0;
-const double meter_per_pulse = 0.01428;  // 펄스당 이동 거리
+const double meter_per_pulse = 0.0003498;  // 펄스당 이동 거리
 
 // 엔코더 값을 업데이트하는 함수 
 void update_encoder_values() {
